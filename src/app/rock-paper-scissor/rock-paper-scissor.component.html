@@ -1,0 +1,19 @@
+<h1>Rock Paper Scissor</h1>
+
+<div class="game">
+  <div class="game-squares">
+    <img src="assets/rockPaperScissor/rock.png" class="game-icons" (click)="rock()">
+  </div>
+  <div class="game-squares">
+    <img src="assets/rockPaperScissor/paper.png" class="game-icons" (click)="paper()">
+  </div>
+  <div class="game-squares">
+    <img src="assets/rockPaperScissor/scissor.png" class="game-icons" (click)="scissor()">
+  </div>
+</div>
+
+<p>You chose: {{userChoice}}</p>
+<p>Computer chose: {{computerChoice}}</p>
+
+<h2>{{message}}</h2>
+
