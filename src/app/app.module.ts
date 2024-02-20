@@ -8,6 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { JustePrixComponent } from './juste-prix/juste-prix.component';
 import { InstructionsComponent } from './juste-prix/instructions/instructions.component';
 import {FormsModule} from "@angular/forms";
+import { RockPaperScissorComponent } from './rock-paper-scissor/rock-paper-scissor.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {FormsModule} from "@angular/forms";
     TicTacToeComponent,
     NavbarComponent,
     JustePrixComponent,
-    InstructionsComponent
+    InstructionsComponent,
+    RockPaperScissorComponent
   ],
   imports: [
     BrowserModule,

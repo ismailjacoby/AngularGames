@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ScoreService} from "../Service/score.service";
+import {ScoreService} from "../services/score.service";
 
 enum Player{
   None = '',

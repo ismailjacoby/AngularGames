@@ -1,8 +1,39 @@
-
 input{
-  width: 250px;
+  padding: 15px 70px;
+  border-radius: 5px;
+  outline-color: #fc4c4c;
+  border: none;
 }
 
-p-button{
+button{
   margin: 0.25em;
+  font-size:20px;
+  padding:10px 20px;
+  background-color: #fccb24;
+  color: #fc4c4c;
+  border: none;
+  border-radius: 5px;
 }
+button:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.9);
+  background-color: #f84444;
+  color: #fccb24;
+  border: 1px solid #fccb24;
+}
+button:disabled{
+  cursor: not-allowed;
+  transform: scale(1);
+}
+
+h4{
+  font-size: 25px;
+}
+
+p{
+  font-size: 20px;
+}
+

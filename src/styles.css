@@ -5,5 +5,9 @@ body{
   background-color: #f84444;
   font-family: "Caveat Brush", cursive;
   text-align: center;
+  color: #fccb24;
 }
 
+button:disabled{
+  opacity: 0.5;
+}

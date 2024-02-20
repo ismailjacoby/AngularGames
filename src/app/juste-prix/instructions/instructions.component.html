@@ -1,12 +1,12 @@
 <div class="displayInstruction higher" *ngIf="isHigher">
-  The number you're looking for is HIGHER ↑
+  <p>The number you're looking for is HIGHER ↑</p>
 </div>
 <div class="displayInstruction lower" *ngIf="isLower">
-  The number you're looking for is LOWER ↓
+  <p>The number you're looking for is LOWER ↓</p>
 </div>
 <div class="displayInstruction correct" *ngIf="hasWon">
-  You won! The correct number was: {{randomNumber}} ✅
+  <p>You won! The correct number was: {{randomNumber}} :D</p>
 </div>
 <div class="displayInstruction correct" *ngIf=" isGameOver && !hasWon">
-  You Lost, the correct number was: {{randomNumber}} ❌
+  <p> You Lost, the correct number was: {{randomNumber}} :(</p>
 </div>
