@@ -27,3 +27,22 @@ a:hover{
 }
 
 
+button{
+  margin: 0.25em;
+  font-size:20px;
+  padding:5px 5px;
+  background-color: #fccb24;
+  color: #fc4c4c;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.9);
+  background-color: #f84444;
+  color: #fccb24;
+  border: 1px solid #fccb24;
+}

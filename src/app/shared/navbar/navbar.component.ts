@@ -16,4 +16,7 @@ export class NavbarComponent {
     return this.score.getDefeats()
   }
 
+  clearScore(){
+      this.score.clearScore();
+  }
 }

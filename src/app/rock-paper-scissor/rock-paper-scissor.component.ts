@@ -58,5 +58,8 @@ export class RockPaperScissorComponent {
     }
   }
 
+  getChoiceName(choice: Choice): string {
+    return Choice[choice];
+  }
 
 }
