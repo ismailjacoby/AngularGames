@@ -1,0 +1,49 @@
+.board{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap: 10px;
+  width:300px;
+  margin: 0 auto;
+}
+
+.board div{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  height:100px;
+  background-color: #fccb24;
+  color: #fc4c4c;
+  font-size:48px;
+  cursor:pointer;
+  border-radius: 8px;
+}
+.board div:hover{
+  transform: scale(0.95);
+}
+
+button{
+  margin-top: 20px;
+  font-size:25px;
+  padding:10px 20px;
+  background-color: #fccb24;
+  border: none;
+  color: #fc4c4c;
+  font-family: "Caveat Brush", cursive;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+button:active{
+  background-color: #fc4c4c;
+  color: #fccb24;
+  border: 1px solid #fccb24;
+}
+
+h1{
+  color: #fccb24;
+  font-size: 50px;
+}

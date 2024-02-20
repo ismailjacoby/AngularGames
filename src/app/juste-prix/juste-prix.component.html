@@ -1,0 +1,23 @@
+<h1>Le Juste Prix</h1>
+
+<div>
+  <input type="number" pInputText placeholder="Enter a number" [(ngModel)]="guessedNumber" (keydown.enter)="checkWin()"><br><br>
+
+  <button (click)="checkWin()" [disabled]="isDisabled">Play</button>
+  <button (click)="playAgain()" [disabled]="!isDisabled">Try Again</button>
+  <button (click)="resetGame()">↻</button>
+</div>
+
+<h4>Attempts: <br>{{userAttempts + " / " + maxAttempts}}</h4>
+
+
+<app-instructions
+  [guessedNumber]="guessedNumber"
+  [randomNumber]="randomNumber"
+  [hasWon]="hasWon"
+  [isHigher]="isHigher"
+  [isLower]="isLower"
+  [isGameOver]="isGameOver"
+>
+
+</app-instructions>

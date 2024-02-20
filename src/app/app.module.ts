@@ -3,16 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GameComponent } from './game/game.component';
+import { TicTacToeComponent } from './ticTacToe/ticTacToe.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { JustePrixComponent } from './juste-prix/juste-prix.component';
+import { InstructionsComponent } from './juste-prix/instructions/instructions.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameComponent
+    TicTacToeComponent,
+    NavbarComponent,
+    JustePrixComponent,
+    InstructionsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
